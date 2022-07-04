@@ -5,7 +5,7 @@
  * main - Determine if the last digit of a random number is
  *greater than or l
 (*
-*Return: 0 on success 
+*Return:0 on success 
 */
 int main(void)
 {
