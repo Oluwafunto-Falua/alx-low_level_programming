@@ -5,12 +5,13 @@
  * main - Determine if the last digit of a random number is
  *greater than or l
 (*
-*Return:0 on success 
+* Return: 0 on success 
 */
 int main(void)
 {
 int n;
 char last[] = "Last digit of";
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("%s %d is %d and is ", last, n, n % 10);
