@@ -1,4 +1,4 @@
-#include "main.c
+#include "main.c"
 /**
 * puts2 - print alternating chars of string
 * @str: string
