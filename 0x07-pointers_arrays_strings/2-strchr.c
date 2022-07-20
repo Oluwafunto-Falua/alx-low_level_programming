@@ -1,10 +1,27 @@
 #include "main.h"
 /**
-* set_string - sets the pointer value to char
-* @s: pointer
-* @to: char
+*
+*  * _strchr - prints found c
+*
+*   * @s: pointer to the char
+*
+*    * @c: char parameters to be found
+*
+*     * Return: *s
+*
 */
-void set_string(char **s, char *to)
+char *_strchr(char *s, char c)
 {
-*s = to;
+while (*s != '\0')
+{
+if (*s == c)
+{										return (s);
+}	
+s++;
+}			
+if (*s == c)
+{
+return (s);
+}
+return (0);
 }
