@@ -1,12 +1,10 @@
 #include "main.h"
 /**
-*
 *  * _strchr - prints found c
 *
 *   * @s: pointer to the char
 *
 *    * @c: char parameters to be found
-*
 *     * Return: *s
 *
 */
@@ -16,9 +14,9 @@ while (*s != '\0')
 {
 if (*s == c)
 {										return (s);
-}	
+}
 s++;
-}			
+}
 if (*s == c)
 {
 return (s);
