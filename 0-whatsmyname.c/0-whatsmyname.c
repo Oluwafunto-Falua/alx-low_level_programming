@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*
 * * main - Prints the program name.
 *
 * * @argc: Number of commmand arguments
